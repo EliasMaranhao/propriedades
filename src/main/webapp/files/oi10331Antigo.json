@@ -1,0 +1,205 @@
+[
+	{
+		"propriedade": "stcWebServiceEndPoint",
+		"eversel": "http://10.3.29.32:8084/Eversel/stcweb/STCTransactionGatewayService",
+		"producao": "http://10.3.29.14:8080/stcweb/STCTransactionGateway",
+		"homologacao": "",
+		"alias": "STC"
+	},
+	{
+		"propriedade": "stiWebServiceEndPoint",
+		"eversel": "http://10.3.29.32:8084/Eversel/BuscarDadosClienteProxySoap",
+		"producao": "http://soacc.intranet/CadastroCliente/BuscarDadosCliente/V1/BuscarDadosClienteProxySoap",
+		"homologacao": "http://soati8.intranet:37201/CadastroCliente/BuscarDadosCliente/V1/BuscarDadosClienteProxySoap",
+		"alias": "R2"
+	},
+	{
+		"propriedade": "api019BuscarDadosClienteEndpoint",
+		"eversel": "",
+		"producao": "http://soacc.intranet/CadastroCliente/BuscarDadosCliente/V1/BuscarDadosClienteProxySoap",
+		"homologacao": "http://soati8.intranet:37201/CadastroCliente/BuscarDadosCliente/V1/BuscarDadosClienteProxySoap",
+		"alias": "API19"
+	},
+	{
+		"propriedade": "estaturaWebServiceEndPoint",
+		"eversel": "",
+		"producao": "http://esboi.gtm.oictx.contax.root:8080/siebelejb/ConsultaSiebelWS",
+		"homologacao": "http://10.9.70.14/siebelWS",
+		"alias": "Estatura"
+	},
+	{
+		"propriedade": "bdoWebServiceEndPoint",
+		"eversel": "",
+		"producao": "http://esboi.gtm.oictx.contax.root:8080/siebelejb/ConsultaSiebelWS",
+		"homologacao": "http://10.9.70.14/siebelWS",
+		"alias": "BDO"
+	},
+	{
+		"propriedade": "historicoPedidosClienteEndPoint",
+		"eversel": "",
+		"producao": "http://soasync01.telemar:7200/ClienteQualidade/ConsultarHistoricoPedidosCliente/V1/ConsultarHistoricoPedidosClienteProxySoap",
+		"homologacao": "http://soasync01.telemar:7200/ClienteQualidade/ConsultarHistoricoPedidosCliente/V1/ConsultarHistoricoPedidosClienteProxySoap",
+		"alias": "HistoricoPEdido"
+	},
+	{
+		"propriedade": "siebelWSEndPoint",
+		"eversel": "",
+		"producao": "http://esboi.gtm.oictx.contax.root:8080/siebelejb/ConsultaSiebelWS",
+		"homologacao": "http://10.9.70.14/siebelWS",
+		"alias": "Siebel"
+	},
+	{
+		"propriedade": "servidorDeContextoEndPoint",
+		"eversel": "",
+		"producao": "http://10.173.10.62:80/services/CSRest/cs/contexts/",
+		"homologacao": "",
+		"alias": "ServidorContext"
+	},
+	{
+		"propriedade": "grasAtivoEndPoint",
+		"eversel": "",
+		"producao": "http://esboi.gtm.oictx.contax.root:8080/siebelejb/ConsultaEstaturaWS",
+		"homologacao": "http://10.100.6.103:8260/siebelejb/ConsultaEstaturaWS",
+		"alias": "GRAS"
+	},
+	{
+		"propriedade": "proRataWebServiceEndPoint",
+		"eversel": "",
+		"producao": "http://esboi.gtm.oictx.contax.root:8080/prorata/ConsultaProRataWS",
+		"homologacao": "http://10.14.0.99:8180/prorata/ConsultaProRataWS",
+		"alias": "PRO_RATA"
+	},
+	{
+		"propriedade": "preRoutingWebServiceEndPoint",
+		"eversel": "",
+		"producao": "http://esboi.gtm.oictx.contax.root:8080/Consulta-preroutingWS/consultaPreRoutingWS",
+		"homologacao": "http://10.170.61.25:8080/Consulta-preroutingWS/consultaPreRoutingWS",
+		"alias": "PRE_ROUTING"
+	},
+	{
+		"propriedade": "m4uEndPoint",
+		"eversel": "",
+		"producao": "",
+		"homologacao": "http://10.173.10.62:80/services/CSRest/cs/contexts/",
+		"alias": "M4U"
+	},
+	{
+		"propriedade": "vasListarRecargaEndPoint",
+		"eversel": "",
+		"producao": "http://esboi.gtm.oictx.contax.root:8080/barramento-vas/servicos/ListarRecargaProxySoap",
+		"homologacao": "http://10.14.0.99:8180/barramento-vas/servicos/ListarRecargaProxySoap",
+		"alias": ""
+	},
+	{
+		"propriedade": "vasListarTerminaisEndPoint",
+		"eversel": "",
+		"producao": "http://esboi.gtm.oictx.contax.root:8080/barramento-vas/servicos/ListarTerminaisProxySoap",
+		"homologacao": "http://10.14.0.99:8180/barramento-vas/servicos/ListarTerminaisProxySoap",
+		"alias": ""
+	},
+	{
+		"propriedade": "vasManterAutorizacaoRecargaEndPoint",
+		"eversel": "",
+		"producao": "http://esboi.gtm.oictx.contax.root:8080/barramento-vas/servicos/ManterAutorizacaoRecargaProxySoap",
+		"homologacao": "http://10.14.0.99:8180/barramento-vas/servicos/ManterAutorizacaoRecargaProxySoap",
+		"alias": ""
+	},
+	{
+		"propriedade": "vasAderirAlterarRecargaEndPoint",
+		"eversel": "",
+		"producao": "http://esboi.gtm.oictx.contax.root:8080/barramento-vas/servicos/AderirAlterarRecargaProxySoap",
+		"homologacao": "http://10.14.0.99:8180/barramento-vas/servicos/AderirAlterarRecargaProxySoap",
+		"alias": ""
+	},
+	{
+		"propriedade": "wsFrameworkEndPoint",
+		"eversel": "",
+		"producao": "http://esboi.gtm.oictx.contax.root:8080/frameworkuraweb/FrameworkURAParsedWS",
+		"homologacao": "http://10.170.61.25:8080/frameworkuraweb/FrameworkURAParsedWS",
+		"alias": ""
+	},
+	{
+		"propriedade": "wsApi002EndPoint",
+		"eversel": "",
+		"producao": "http://10.58.198.10:80/WebservicesGVP/services/WsApi002",
+		"homologacao": "http://10.9.177.99:80/WebservicesGVP/services/WsApi002",
+		"alias": "API002"
+	},
+	{
+		"propriedade": "wsApi003EndPoint",
+		"eversel": "",
+		"producao": "http://10.58.198.10:80/WebservicesGVP/services/WsApi003",
+		"homologacao": "http://10.9.177.99:80/WebservicesGVP/services/WsApi003",
+		"alias": "API003"
+	},
+	{
+		"propriedade": "wsApi004EndPoint",
+		"eversel": "",
+		"producao": "http://10.58.198.10:80/WebservicesGVP/services/WsApi004",
+		"homologacao": "http://10.9.177.99:80/WebservicesGVP/services/WsApi004",
+		"alias": "API004"
+	},
+	{
+		"propriedade": "wsApi005EndPoint",
+		"eversel": "",
+		"producao": "http://10.58.198.10:80/WebservicesGVP/services/WsApi005",
+		"homologacao": "http://10.9.177.99:80/WebservicesGVP/services/WsApi005",
+		"alias": "API005"
+	},
+	{
+		"propriedade": "wsApi008EndPoint",
+		"eversel": "",
+		"producao": "http://10.58.198.10:80/WebservicesGVP/services/WsApi008",
+		"homologacao": "http://10.9.177.99:80/WebservicesGVP/services/WsApi008",
+		"alias": "API008"
+	},
+	{
+		"propriedade": "wsApi011EndPoint",
+		"eversel": "",
+		"producao": "http://10.58.198.10:80/WebservicesGVP/services/wsApi011",
+		"homologacao": "http://10.9.177.99:80/WebservicesGVP/services/wsApi011",
+		"alias": "API011"
+	},
+	{
+		"propriedade": "wsApi019EndPoint",
+		"eversel": "",
+		"producao": "http://10.58.198.10:80/WebservicesGVP/services/WsApi019",
+		"homologacao": "http://10.9.177.99:80/WebservicesGVP/services/WsApi019",
+		"alias": "API019"
+	},
+	{
+		"propriedade": "wsApi031EndPoint",
+		"eversel": "",
+		"producao": "http://10.58.198.10:80/WebservicesGVP/services/WsApi031",
+		"homologacao": "http://10.9.177.99:80/WebservicesGVP/services/WsApi031",
+		"alias": "API031"
+	},
+	{
+		"propriedade": "wsApi032EndPoint",
+		"eversel": "",
+		"producao": "http://10.58.198.10:80/WebservicesGVP/services/WsApi032",
+		"homologacao": "http://10.9.177.99:80/WebservicesGVP/services/WsApi032",
+		"alias": "API032"
+	},
+	{
+		"propriedade": "wsApi055EndPoint",
+		"eversel": "",
+		"producao": "http://10.58.198.10:80/WebservicesGVP/services/WsApi055",
+		"homologacao": "http://10.9.177.99:80/WebservicesGVP/services/WsApi055",
+		"alias": "API055"
+	},
+	{
+		"propriedade": "wsApi059EndPoint",
+		"eversel": "",
+		"producao": "http://10.58.198.10:80/WebservicesGVP/services/WsApi059",
+		"homologacao": "http://10.9.177.99:80/WebservicesGVP/services/WsApi059",
+		"alias": "API059"
+	},
+	{
+		"propriedade": "roboticsEndPoint",
+		"eversel": "",
+		"producao": "http://uractx09rjopa/getdate/",
+		"homologacao": "http://10.171.3.25/getdate/",
+		"alias": ""
+	}
+]

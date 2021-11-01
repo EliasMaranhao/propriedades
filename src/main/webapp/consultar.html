@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Consultar</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/stylus.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+	</head>
+	
+	<body>
+
+		<div class="jumbotron jumbotron-fluid">
+		  <div class="container">
+		    <h1 class="display-7">Propriedades</h1>
+		    <p class="lead">Modifique os caminhos da sua aplicação aqui</p>
+		  </div>
+		</div>
+		
+		<div class="container">
+			
+			<div id="divMensagem"></div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card">
+						<div class="card-header" id="divCabecalho"></div>
+						
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-10">	
+									<input type="text" id="txtNome" class="form-control form-control-sm" placeholder="propriedade" />
+								</div>
+								
+								<div class="col-md-2">
+									<button id="btnFiltro" type="button" class="btn btn-sm btn-primary" style="width: 100%">Filtrar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<br>
+			 
+			<div class="row">
+				<div class="col-md-12" id="divTabela"></div>
+			</div>
+			
+			<div class="row">
+				<nav id="navegacao" class="col-md-12"></nav>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12">
+					<button id="btnInicio" type="button" class="btn btn-primary btn-sm">Voltar ao inicio</button>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="js/utils.js"></script>
+		<script type="text/javascript" src="js/consultar.js"></script>
+	</body>
+</html>

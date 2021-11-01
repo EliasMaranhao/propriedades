@@ -1,0 +1,98 @@
+[
+	{
+		"propriedade": "endpointSTC",
+		"eversel": "http://10.3.29.32:8084/Eversel/stcweb/STCTransactionGatewayService",
+		"producao": "http://10.3.29.14:8080/stcweb/STCTransactionGateway",
+        "homologacao":"",
+		"vpn": "",
+		"alias": "STC"
+	},
+	{
+		"propriedade": "endpointOmnichannelCustomerInteraction",
+		"eversel": "",
+		"producao": "https://apimlocal.intranet/api/oc-ms-customer-interaction/",
+		"homologacao": "https://apimhmllocal.intranet/api/oc-ms-customer-interaction/",
+		"vpn": "https://apim.oi.net.br/api/oc-ms-customer-interaction/",
+		"alias": "OmniChannel"
+	},
+	{
+		"propriedade": "endPointOmnichannelCustomerHistory",
+		"eversel": "",
+		"producao": "https://apimlocal.intranet/api/oc-ms-customer-history/",
+		"homologacao": "https://apimhmllocal.intranet/api/oc-ms-customer-history/",
+		"vpn": "https://apim.oi.net.br/api/oc-ms-customer-history/",
+		"alias": "OmniChannel"
+	},
+	{
+		"propriedade": "endpointTokenOmnichannel",
+		"eversel": "",
+		"producao": "https://apimlocal.intranet/api/oc-ms-authentication/login",
+		"homologacao": "https://apimhmllocal.intranet/api/oc-ms-authentication/login",
+		"vpn": "https://apim.oi.net.br/api/oc-ms-authentication/login",
+		"alias": "OmniChannel"
+	},
+	{
+		"propriedade": "userTokenomnichannel",
+		"eversel": "",
+		"producao": "urafixa",
+		"homologacao": "",
+		"vpn": "",
+		"alias": "OmniChannel"
+	},
+	{
+		"propriedade": "passwordTokenomnichannel",
+		"eversel": "",
+		"producao": "cc30f3553ece4fe9ad841689e7d9de91",
+		"homologacao": "a7930ba45772479989892233f63d993c",
+		"vpn": "",
+		"alias": "OmniChannel"
+	},
+	{
+		"propriedade": "endpointTokenPosse",
+		"eversel": "",
+		"producao": "https://apimlocal.intranet/auth/oauth/v2/token",
+		"homologacao": "https://apimhmllocal.intranet/auth/oauth/v2/token",
+		"vpn": "https://apim.oi.net.br/auth/oauth/v2/token",
+		"alias": "Token"
+	},
+	{
+		"propriedade": "authUrlOCS",
+		"eversel": "",
+		"producao": "https://apimlocal.intranet/auth/oauth/v2/token",
+		"homologacao": "https://apimhmllocal.intranet/auth/oauth/v2/token",
+		"vpn": "https://apim.oi.net.br/auth/oauth/v2/token",
+		"alias": "Token"
+	},
+	{
+		"propriedade": "endpointAPIMAuth",
+		"eversel": "",
+		"producao": "https://apimlocal.intranet/auth/oauth/v2/token",
+		"homologacao": "https://apimhmllocal.intranet/auth/oauth/v2/token",
+		"vpn": "https://apim.oi.net.br/auth/oauth/v2/token",
+		"alias": "Token"
+	},
+	{
+		"propriedade": "endpointAPIMAuthEnvioMensagemMEMO",
+		"eversel": "",
+		"producao": "https://apimlocal.intranet/auth/oauth/v2/token",
+		"homologacao": "https://apimhmllocal.intranet/auth/oauth/v2/token",
+		"vpn": "https://apim.oi.net.br/auth/oauth/v2/token",
+		"alias": "Token"
+	},
+	{
+		"propriedade": "apim_auth_client",
+		"eversel": "",
+		"producao": "6dd8ef7d-5b4e-4926-ac47-5f056431264e",
+		"homologacao": "fb36df09-5c71-4fe8-a795-c79f8d7938cb",
+		"vpn": "",
+		"alias": "Token"
+	},
+	{
+		"propriedade": "apim_auth_secret",
+		"eversel": "",
+		"producao": "6f48f8cd-fef9-48b3-a9aa-8ce6625807af",
+		"homologacao": "1a2581d5-495d-4bb2-b1f4-032ce05aa0a1",
+		"vpn": "",
+		"alias": "Token"
+	}
+]

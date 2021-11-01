@@ -1,0 +1,23 @@
+[
+  {
+		"propriedade": "endpointSTC",
+		"eversel": "http://10.3.29.32:8084/Eversel/stcweb/STCTransactionGatewayService",
+		"producao": "http://10.3.29.14:8080/stcweb/STCTransactionGateway",
+		"homologacao": "",
+		"alias": "STC"
+	},
+  {
+		"propriedade": "legacyEndpointSTI",
+		"eversel": "http://10.3.29.32:8084/Eversel/BuscarDadosClienteProxySoap",
+		"producao": "http://soacc.intranet/CadastroCliente/BuscarDadosCliente/V1/BuscarDadosClienteProxySoap",
+		"homologacao": "http://soati8.intranet:37201/CadastroCliente/BuscarDadosCliente/V1/BuscarDadosClienteProxySoap",
+		"alias": "R2"
+	},
+  {
+		"propriedade": "api019BuscarDadosClienteEndpoint",
+		"eversel": "",
+		"producao": "http://soacc.intranet/CadastroCliente/BuscarDadosCliente/V1/BuscarDadosClienteProxySoap",
+		"homologacao": "http://soati8.intranet:37201/CadastroCliente/BuscarDadosCliente/V1/BuscarDadosClienteProxySoap",
+		"alias": "API19"
+	}
+]
